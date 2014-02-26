@@ -24,10 +24,15 @@ file to a `dfont` file that can be used by Font Book.app to install the font.  T
    $ fontforge creep.bsd
    ```
 2. select `File > Generate Fonts`
-3. from the dropdown select `Apple bitmap only sfnt (dfont)`
-4. click `Save`
-5. open the dfont file in Font Book.app
-6. You're done!
+3. from the left dropdown select `No Outline Font`
+4. from the right dropdown select `Apple bitmap only fnt (dfont)`
+5. click `Save`
+6. open the `.dfont` file in Font Book.app
+7. You're done!
+
+Alternativatly you can download one of the [releases](https://github.com/romeovs/creep/releases),
+these are not the latest versions of the font but I will try to update them regulary so you don't
+have to go trought these steps.
 
 I'm not a professional font creator so there are some quirks in the character
 sizing.  To get past these I set the line height to 0.85 and the character spacing
