@@ -12,8 +12,8 @@ so I figured I'd put it up on github for poeple to reap the gain this.
 ![screenshot2](screen2.png "in the wild example")
 
 ## Usage
-The font is maintained using [gbdfed](http://sofia.nmsu.edu/~mleisher/Software/gbdfed/) which
-unfortunatly does not support a lot of export formats besides `bdf`.
+The font is maintained using the awesome [gbdfed](http://sofia.nmsu.edu/~mleisher/Software/gbdfed/) 
+which unfortunatly does not support a lot of export formats besides `bdf`.
 
 To install creep in Mac OS X, you can use [font forge](http://fontforge.org/) to convert the `bdf`
 file to a `dfont` file that can be used by Font Book.app to install the font.  To do this:
@@ -23,10 +23,10 @@ file to a `dfont` file that can be used by Font Book.app to install the font.  T
    ```shell
    $ fontforge creep.bsd
    ```
-2. select `File > Generator Fonts`
+2. select `File > Generate Fonts`
 3. from the dropdown select `Apple bitmap only sfnt (dfont)`
-4. click Save
-5. open the dfont in Font Book.app
+4. click `Save`
+5. open the dfont file in Font Book.app
 6. You're done!
 
 ## Attribution
