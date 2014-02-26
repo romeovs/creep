@@ -25,7 +25,7 @@ file to a `dfont` file that can be used by Font Book.app to install the font.  T
    ```
 2. select `File > Generate Fonts`
 3. from the left dropdown select `No Outline Font`
-4. from the right dropdown select `Apple bitmap only fnt (dfont)`
+4. from the right dropdown select `Apple bitmap only sfnt (dfont)`
 5. click `Save`
 6. open the `.dfont` file in Font Book.app
 7. You're done!
