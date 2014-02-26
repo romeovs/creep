@@ -39,7 +39,7 @@ to 0.75 in Terminal.app (using a Size of 16px).
 Before I created creep I was using Proggy Tiny, which is a great font
 and has given me a lot of inspiration.
 
-![CREEPIN NO SLEEPING](https://soundcloud.com/youngmustard/creepin-no-sleepin)
+[CREEPIN NO SLEEPING](https://soundcloud.com/youngmustard/creepin-no-sleepin)
 
 ## License
 I love you all, so please use this font as much as you like for free.  But make sure you provide the
