@@ -19,7 +19,8 @@ To install creep in Mac OS X, you can use [font forge](http://fontforge.org/) to
 file to a `dfont` file that can be used by Font Book.app to install the font.  To do this:
 
 1. open the font in font forge:
-   ``` shell
+
+   ```shell
    $ fontforge creep.bsd
    ```
 2. select `File > Generator Fonts`
