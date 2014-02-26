@@ -29,6 +29,12 @@ file to a `dfont` file that can be used by Font Book.app to install the font.  T
 5. open the dfont file in Font Book.app
 6. You're done!
 
+I'm not a professional font creator so there are some quirks in the character
+sizing.  To get past these I set the line height to 0.85 and the character spacing
+to 0.75 in Terminal.app (using a Size of 16px).
+
+![terminal](info.png "Terminal.app settings")
+
 ## Attribution
 Before I created creep I was using Proggy Tiny, which is a great font
 and has given me a lot of inspiration.
