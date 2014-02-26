@@ -8,7 +8,8 @@ for smaller screens (like my 11" laptop).
 I'm constantly adding in new characters (diacritics, box-drawing characters, etc.),
 so I figured I'd put it up on github for poeple to reap the gain this.
 
-![screenshot.](screen.png "screenshot of the ASCII characters")
+![screenshot1](screen.png  "screenshot of the ASCII characters")
+![screenshot2](screen2.png "in the wild example")
 
 ## Attribution
 Before I created creep I was using Proggy Tiny, which is a great font
