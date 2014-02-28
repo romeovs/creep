@@ -8,8 +8,8 @@ for smaller screens (like my 11" laptop).
 I'm constantly adding in new characters (diacritics, box-drawing characters, etc.),
 so I figured I'd put it up on github for poeple to reap the gain this.
 
-![screenshot1](screen.png  "screenshot of the ASCII characters")
-![screenshot2](screen2.png "in the wild example")
+![screenshot1](screens/screen.png  "screenshot of the ASCII characters")
+![screenshot2](screens/screen2.png "in the wild example")
 
 ## Usage
 The font is maintained using the awesome [gbdfed](http://sofia.nmsu.edu/~mleisher/Software/gbdfed/) 
@@ -38,7 +38,7 @@ I'm not a professional font creator so there are some quirks in the character
 sizing.  To get past these I set the line height to 0.85 and the character spacing
 to 0.75 in Terminal.app (using a Size of 16px).
 
-![terminal](info.png "Terminal.app settings")
+![terminal](screens/info.png "Terminal.app settings")
 
 ## Attribution
 Before I created creep I was using Proggy Tiny, which is a great font
