@@ -11,6 +11,10 @@ so I figured I'd put it up on github for poeple to reap the gain this.
 ![screenshot1](screens/screen.png  "screenshot of the ASCII characters")
 ![screenshot2](screens/screen2.png "in the wild example")
 
+The font also has powerline support:
+![powerline](screens/powerline.png "powerline screenshot")
+
+
 ## Usage
 The font is maintained using the awesome [gbdfed](http://sofia.nmsu.edu/~mleisher/Software/gbdfed/) 
 which unfortunatly does not support a lot of export formats besides `bdf`.
