@@ -44,6 +44,53 @@ to 0.75 in Terminal.app (using a Size of 16px).
 
 ![terminal](screens/info.png "Terminal.app settings")
 
+## Haskell arrows
+I've added support for better Haskell arrows.  You could use them using
+[-XUnicodeSyntax](http://www.haskell.org/ghc/docs/7.4.1/html/users_guide/syntax-extns.html#unicode-syntax),
+but this will possibly drive your coauthors crazy.  If you want a less drastic
+approach and you're a vim user, you could use the `conceal` capabilities:
+
+```VimL
+" set correct conceal
+set conceallevel=1
+set concealcursor=nvi
+
+" lambda's
+syntax match hsLambda "\\" conceal cchar=λ
+
+" function composition
+syntax match hsCompose / \. /ms=s+1,me=e-1 conceal cchar=·
+
+" ->
+syn match MHArrow   /->/       contains=MHArrowM,MHArrowH
+syn match MHArrowM  /-/        contained containedin=MHArrow conceal cchar=-
+syn match MHArrowH  /-\@<=>/   contained containedin=MHArrow conceal cchar=→
+
+" <-
+syn match HMArrow   /<-/       contains=HMArrowM,HMArrowH
+syn match HMArrowH  /</        contained containedin=HMArrow conceal cchar=←
+syn match HMArrowM  /<\@<=-/   contained containedin=HMArrow conceal cchar=-
+
+" =>
+syn match DMHArrow   /=>/       contains=DMHArrowM,DMHArrowH
+syn match DMHArrowM  /=/        contained containedin=DMHArrow conceal cchar==
+syn match DMHArrowH  /=\@<=>/   contained containedin=DMHArrow conceal cchar=⇒
+
+" -<
+syn match TMArrow   /-</       contains=TMArrowT,TMArrowM
+syn match TMArrowT  /-/        contained containedin=TMArrow conceal cchar=-
+syn match TMArrowM  /-\@<=</   contained containedin=TMArrow conceal cchar=⤙
+
+syn match DTMArrow   /-<</       contains=DTMArrowT,DTMArrowM
+syn match DTMArrowT  /-<</me=s+1 contained containedin=DTMArrow conceal cchar=-
+syn match DTMArrowM  /-\@<=</   contained containedin=DTMArrow conceal cchar=⤛
+syn match DTMArrowM  /\(-<\)\@<=</   contained containedin=DTMArrow conceal cchar=<
+```
+
+This yields the following visual effect:
+![haskell](screens/haskell.png "haskell screenshot")
+
+
 ## Attribution
 Before I created creep I was using Proggy Tiny, which is a great font
 and has given me a lot of inspiration.
