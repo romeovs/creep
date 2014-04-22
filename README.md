@@ -44,7 +44,7 @@ to 0.75 in Terminal.app (using a Size of 16px).
 
 ![terminal](screens/info.png "Terminal.app settings")
 
-## Haskell arrows
+## Haskell syntax
 I've added support for better Haskell arrows.  You could use them using
 [-XUnicodeSyntax](http://www.haskell.org/ghc/docs/7.4.1/html/users_guide/syntax-extns.html#unicode-syntax),
 but this will possibly drive your coauthors crazy.  If you want a less drastic
