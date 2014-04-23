@@ -6,7 +6,7 @@ my own with creep.  It is a pretty compact (only 4px wide!) font that's great
 for smaller screens (like my 11" laptop).
 
 I'm constantly adding in new characters (diacritics, box-drawing characters, etc.),
-so I figured I'd put it up on github for poeple to reap the gain this.
+so I figured I'd put it up on github for poeple to reap benefits of this.
 
 ![screenshot1](screens/screen.png  "screenshot of the ASCII characters")
 ![screenshot2](screens/screen2.png "in the wild example")
@@ -38,9 +38,9 @@ Alternativatly you can download one of the [releases](https://github.com/romeovs
 these are not the latest versions of the font but I will try to update them regulary so you don't
 have to go trought these steps.
 
-I'm not a professional font creator so there are some quirks in the character
-sizing.  To get past these I set the line height to 0.85 and the character spacing
-to 0.75 in Terminal.app (using a Size of 16px).
+I'm not a professional font creator so there are some little quirks in the character
+sizing.  To get past these I set the line height to 0.9 and the character spacing
+to 0.75 in Terminal.app (using a Size of 16px) to make it look airtight.
 
 ![terminal](screens/info.png "Terminal.app settings")
 
@@ -94,8 +94,6 @@ This yields the following visual effect:
 ## Attribution
 Before I created creep I was using Proggy Tiny, which is a great font
 and has given me a lot of inspiration.
-
-[CREEPIN NO SLEEPING](https://soundcloud.com/youngmustard/creepin-no-sleepin)
 
 ## License
 I love you all, so please use this font as much as you like for free.  But make sure you provide the
