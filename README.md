@@ -81,10 +81,10 @@ syn match TMArrow   /-</       contains=TMArrowT,TMArrowM
 syn match TMArrowT  /-/        contained containedin=TMArrow conceal cchar=-
 syn match TMArrowM  /-\@<=</   contained containedin=TMArrow conceal cchar=⤙
 
-syn match DTMArrow   /-<</       contains=DTMArrowT,DTMArrowM
-syn match DTMArrowT  /-<</me=s+1 contained containedin=DTMArrow conceal cchar=-
-syn match DTMArrowM  /-\@<=</   contained containedin=DTMArrow conceal cchar=⤛
-syn match DTMArrowM  /\(-<\)\@<=</   contained containedin=DTMArrow conceal cchar=<
+syn match DTMArrow   /-<</         contains=DTMArrowM,DTMArrowT,DTMArrowTT
+syn match DTMArrowM  /-<</me=s+1   contained containedin=DTMArrow conceal cchar=-
+syn match DTMArrowT  /-\@<=</      contained containedin=DTMArrow conceal cchar=⤛
+syn match DTMArrowTT /\(-<\)\@<=</ contained containedin=DTMArrow conceal cchar=<
 ```
 
 This yields the following visual effect:
