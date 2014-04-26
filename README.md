@@ -8,6 +8,9 @@ for smaller screens (like my 11" laptop).
 I'm constantly adding in new characters (diacritics, box-drawing characters, etc.),
 so I figured I'd put it up on github for poeple to reap benefits of this.
 
+I also recently added some nice [Haskell features](https://github.com/romeovs/creep/wiki/Haskell-syntax-sugar) (that
+can be used in other languages too)!
+
 ![screenshot1](screens/screen.png  "screenshot of the ASCII characters")
 ![screenshot2](screens/screen2.png "in the wild example")
 
