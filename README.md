@@ -1,6 +1,9 @@
 creep
 =====
 
+[features](#features) · [Usage](#usage) · [Attribution](#attribution) ·
+[Licence](#license)
+
 I never found the pixel font that was perfect for me, so I decided to roll
 my own with creep.  It is a pretty compact (only 4px wide!) font that's great
 for smaller screens (like my 11" laptop).
@@ -14,7 +17,7 @@ can be used in other languages too)!
 ![screenshot1](screens/screen.png  "screenshot of the ASCII characters")
 ![screenshot2](screens/screen2.png "in the wild example")
 
-### Character support
+### Features
 #### Powerline
 Creep supports all the symbols needed for Lokaltog's awsome [powerline](https://github.com/Lokaltog/powerline)
 ![powerline](screens/powerline.png "powerline screenshot")
