@@ -20,22 +20,29 @@ can be used in other languages too)!
 ### Features
 #### Powerline
 Creep supports all the symbols needed for Lokaltog's awsome [powerline](https://github.com/Lokaltog/powerline)
+
 ![powerline](screens/powerline.png "powerline screenshot")
 
 #### Sparklines
 Creep has the necessary symbols for creating sparklines.  See how good it makes
 [iStats](https://github.com/Chris911/iStats) look:
+
 ![powerline](screens/istats.png "istats screenshot")
 
 #### Better Haskell syntax
-I've added support for better Haskell syntax.  Take a look at [the wiki
-page](https://github.com/romeovs/creep/wiki/Haskell-syntax-sugar) for how to
-implement this in vim (or emacs).
+I've added support for better Haskell syntax.  Take a look at [the Haskell wiki
+page](https://github.com/romeovs/creep/wiki/Haskell-syntax-sugar) to get an idea
+of how it looks and how to use it in vim.
 
 #### Braille and Drawille
-Because creep now supports the full [braille
-alphabet](https://en.wikipedia.org/wiki/Braille_Patterns_(Unicode)), it also
-supports all of the [Drawille](https://github.com/asciimoo/drawille) libraries:
+Creep now supports the full
+[braille alphabet](https://en.wikipedia.org/wiki/Braille_Patterns_(Unicode)),
+which was an easy thing to do because of the clever braille encoding scheme.
+All of the braille characters are simply generated using a little script.
+
+Because creep supports braille, it also supports the wonderful
+[Drawille](https://github.com/asciimoo/drawille) libraries:
+
 ![powerline](screens/drawille.png "drawille screenshot")
 
 ## Usage
@@ -68,8 +75,13 @@ to 0.75 in Terminal.app (using a Size of 16px) to make it look airtight.
 ![terminal](screens/info.png "Terminal.app settings")
 
 ## Attribution
-Before I created creep I was using Proggy Tiny, which is a great font
-and has given me a lot of inspiration.
+Before I created creep I was using [Proggy Tiny](http://www.proggyfonts.net/), which is also 
+great font and has given me the inspiration to create my own font.
+
+Also I would like to compliment the creators of
+[gbdfed](http://www.math.nmsu.edu/~mleisher/Software/gbdfed/) on their work.  I
+really enjoy using it.
+
 
 ## License
 I love you all, so please use this font as much as you like for free.  But make sure you provide the
