@@ -14,20 +14,21 @@ can be used in other languages too)!
 ![screenshot1](screens/screen.png  "screenshot of the ASCII characters")
 ![screenshot2](screens/screen2.png "in the wild example")
 
-### Creep supports a lot of nice features
+### Character support
 #### Powerline
 Creep supports all the symbols needed for Lokaltog's awsome [powerline](https://github.com/Lokaltog/powerline)
 ![powerline](screens/powerline.png "powerline screenshot")
 
 #### Sparklines
-Creep has the necessary symbols for creating sparklines.  Look how good it makes
-[iSats](https://github.com/Chris911/iStats) look:
+Creep has the necessary symbols for creating sparklines.  See how good it makes
+[iStats](https://github.com/Chris911/iStats) look:
 ![powerline](screens/istats.png "powerline screenshot")
 
 #### Haskell syntax
 I've added support for better Haskell syntax.  Take a look at [the wiki
 page](https://github.com/romeovs/creep/wiki/Haskell-syntax-sugar) for how to
 implement this in vim (or emacs).
+
 
 ## Usage
 The font is maintained using the awesome [gbdfed](http://sofia.nmsu.edu/~mleisher/Software/gbdfed/) 
