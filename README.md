@@ -18,19 +18,26 @@ can be used in other languages too)!
 ![screenshot2](screens/screen2.png "in the wild example")
 
 ### Features
+#### Box drawing
+Creep has most of the basic box drawing characters implemented.  Therefore creep
+usually works with most ncurses-type programs or with tmux window-splitting for
+example.
+
 #### Powerline
-Creep supports all the symbols needed for Lokaltog's awsome [powerline](https://github.com/Lokaltog/powerline)
+Creep supports all the symbols needed for Lokaltog's awesome [powerline](https://github.com/Lokaltog/powerline) plugin
+for vim:
 
 ![powerline](screens/powerline.png "powerline screenshot")
 
 #### Sparklines
-Creep has the necessary symbols for creating sparklines.  See how good it makes
-[iStats](https://github.com/Chris911/iStats) look:
+Creep has the necessary symbols for creating sparklines. This is cool
+for tools like [rainbarf](https://github.com/creaktive/rainbarf) nd others.
+See how good it makes [iStats](https://github.com/Chris911/iStats) look:
 
 ![powerline](screens/istats.png "istats screenshot")
 
 #### Better Haskell syntax
-I've added support for better Haskell syntax.  Take a look at [the Haskell wiki
+I've added support for a better-looking Haskell syntax.  Take a look at [the Haskell wiki
 page](https://github.com/romeovs/creep/wiki/Haskell-syntax-sugar) to get an idea
 of how it looks and how to use it in vim.
 
@@ -81,6 +88,9 @@ great font and has given me the inspiration to create my own font.
 Also I would like to compliment the creators of
 [gbdfed](http://www.math.nmsu.edu/~mleisher/Software/gbdfed/) on their work.  I
 really enjoy using it.
+
+Also if you have some ideas on what I should implement, please contact me.  I'd
+be happy to implement extra features.
 
 
 ## License
