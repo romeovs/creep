@@ -33,6 +33,7 @@ for vim:
 Creep has the necessary symbols for creating sparklines. This is cool
 for tools like [rainbarf](https://github.com/creaktive/rainbarf) nd others.
 See how good it makes [iStats](https://github.com/Chris911/iStats) look:
+
 ![istats](screens/istats.png "istats screenshot")
 
 #### Better Haskell syntax
@@ -48,6 +49,7 @@ All of the braille characters are simply generated using a little script.
 
 Because creep supports braille, it also supports the wonderful
 [Drawille](https://github.com/asciimoo/drawille) libraries:
+
 ![drawille](screens/drawille.png "drawille screenshot")
 
 ## Usage
