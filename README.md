@@ -8,6 +8,9 @@ for smaller screens (like my 11" laptop).
 I'm constantly adding in new characters (diacritics, box-drawing characters, etc.),
 so I figured I'd put it up on github for poeple to reap benefits of this.
 
+I also recently added some nice [Haskell features](https://github.com/romeovs/creep/wiki/Haskell-syntax-sugar) (that
+can be used in other languages too)!
+
 ![screenshot1](screens/screen.png  "screenshot of the ASCII characters")
 ![screenshot2](screens/screen2.png "in the wild example")
 
@@ -20,6 +23,11 @@ Creep supports all the symbols needed for Lokaltog's awsome [powerline](https://
 Creep has the necessary symbols for creating sparklines.  Look how good it makes
 [iSats](https://github.com/Chris911/iStats) look:
 ![powerline](screens/istats.png "powerline screenshot")
+
+#### Haskell syntax
+I've added support for better Haskell syntax.  Take a look at [the wiki
+page](https://github.com/romeovs/creep/wiki/Haskell-syntax-sugar) for how to
+implement this in vim (or emacs).
 
 ## Usage
 The font is maintained using the awesome [gbdfed](http://sofia.nmsu.edu/~mleisher/Software/gbdfed/) 
@@ -49,16 +57,6 @@ sizing.  To get past these I set the line height to 0.9 and the character spacin
 to 0.75 in Terminal.app (using a Size of 16px) to make it look airtight.
 
 ![terminal](screens/info.png "Terminal.app settings")
-
-## Haskell syntax
-I've added support for better Haskell arrows.  You could use them using
-[-XUnicodeSyntax](http://www.haskell.org/ghc/docs/7.4.1/html/users_guide/syntax-extns.html#unicode-syntax),
-but this will possibly drive your coauthors crazy.  If you want a less drastic
-approach and you're a vim user, you could use the `conceal` capabilities:
-
-This yields the following visual effect:
-![haskell](screens/haskell.png "haskell screenshot")
-
 
 ## Attribution
 Before I created creep I was using Proggy Tiny, which is a great font
