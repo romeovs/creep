@@ -11,9 +11,15 @@ so I figured I'd put it up on github for poeple to reap benefits of this.
 ![screenshot1](screens/screen.png  "screenshot of the ASCII characters")
 ![screenshot2](screens/screen2.png "in the wild example")
 
-The font also has powerline support:
+### Creep supports a lot of nice features
+#### Powerline
+Creep supports all the symbols needed for Lokaltog's awsome [powerline](https://github.com/Lokaltog/powerline)
 ![powerline](screens/powerline.png "powerline screenshot")
 
+#### Sparklines
+Creep has the necessary symbols for creating sparklines.  Look how good it makes
+[iSats](https://github.com/Chris911/iStats) look:
+![powerline](screens/istats.png "powerline screenshot")
 
 ## Usage
 The font is maintained using the awesome [gbdfed](http://sofia.nmsu.edu/~mleisher/Software/gbdfed/) 
