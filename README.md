@@ -22,13 +22,18 @@ Creep supports all the symbols needed for Lokaltog's awsome [powerline](https://
 #### Sparklines
 Creep has the necessary symbols for creating sparklines.  See how good it makes
 [iStats](https://github.com/Chris911/iStats) look:
-![powerline](screens/istats.png "powerline screenshot")
+![powerline](screens/istats.png "istats screenshot")
 
-#### Haskell syntax
+#### Better Haskell syntax
 I've added support for better Haskell syntax.  Take a look at [the wiki
 page](https://github.com/romeovs/creep/wiki/Haskell-syntax-sugar) for how to
 implement this in vim (or emacs).
 
+#### Braille and Drawille
+Because creep now supports the full [braille
+alphabet](https://en.wikipedia.org/wiki/Braille_Patterns_(Unicode)), it also
+supports all of the [Drawille](https://github.com/asciimoo/drawille) libraries:
+![powerline](screens/drawille.png "drawille screenshot")
 
 ## Usage
 The font is maintained using the awesome [gbdfed](http://sofia.nmsu.edu/~mleisher/Software/gbdfed/) 
