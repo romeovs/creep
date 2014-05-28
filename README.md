@@ -1,7 +1,7 @@
 creep
 =====
 
-[features](#features) · [Usage](#usage) · [Attribution](#attribution) ·
+[Features](#features) · [Usage](#usage) · [Attribution](#attribution) ·
 [Licence](#license)
 
 I never found the pixel font that was perfect for me, so I decided to roll
