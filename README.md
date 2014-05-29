@@ -97,8 +97,10 @@ really enjoy using it.
 Also if you have some ideas on what I should implement, please contact me.  I'd
 be happy to implement extra features.
 
+[Creepin' No Sleepin'](https://soundcloud.com/youngmustard/03-creepin-no-sleepin)
 
 ## License
-I love you all, so please use this font as much as you like for free.  But make sure you provide the
-same liberty in it's new incarnations.
+I love you all, so please use this font as much as you like for free.  However, I would like to make sure
+you provide others the same liberty in creep's new incarnations. Therefore creep
+is licensed under the [MIT License](https://github.com/romeovs/creep/blob/master/LICENSE).
 
