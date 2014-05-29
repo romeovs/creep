@@ -36,8 +36,8 @@ for vim:
 
 #### Sparklines
 Creep has the necessary symbols for creating sparklines. This is cool
-for tools like [rainbarf](https://github.com/creaktive/rainbarf) nd others.
-See how good it makes [iStats](https://github.com/Chris911/iStats) look:
+for tools like [rainbarf](https://github.com/creaktive/rainbarf) and others.
+I mean, see how good it makes [iStats](https://github.com/Chris911/iStats) look:
 
 ![istats](screens/istats.png "istats screenshot")
 
