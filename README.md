@@ -1,7 +1,7 @@
 creep
 =====
 
-[Features](#features) · [Usage](#usage) · [Attribution](#attribution) ·
+[Features](#features) · [Installation](#installation) · [Attribution](#attribution) ·
 [Licence](#license)
 
 I never found the pixel font that was perfect for me, so I decided to roll
@@ -57,7 +57,7 @@ Because creep supports braille, it also supports the wonderful
 
 ![drawille](screens/drawille.png "drawille screenshot")
 
-## Usage
+## Installation
 The font is maintained using the awesome [gbdfed](http://sofia.nmsu.edu/~mleisher/Software/gbdfed/) 
 which unfortunatly does not support a lot of export formats besides `bdf`.
 
