@@ -18,10 +18,15 @@ can be used in other languages too)!
 ![screenshot2](screens/screen2.png "in the wild example")
 
 ### Features
+[Box Drawing](#box-drawing) · [Sparklines](#sparklines) ·
+[Haskell](#better-haskell-syntax) · [Braille and
+Drawille](#braille-and-drawille)
 #### Box drawing
 Creep has most of the basic box drawing characters implemented.  Therefore creep
 usually works with most ncurses-type programs or with tmux window-splitting for
 example.
+
+![box drawing](screens/box.png "boxdrawing screenshot")
 
 #### Powerline
 Creep supports all the symbols needed for Lokaltog's awesome [powerline](https://github.com/Lokaltog/powerline) plugin
