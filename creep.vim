@@ -48,7 +48,7 @@ syn match DHMTArrowT  /=\@<=</   contained containedin=DHMTArrow conceal cchar=�
 syn match DMTTArrow    /=<</      contains=DMTTArrowT,DMTTArrowTT,DMTTArrowM
 syn match DMTTArrowM   /=/        contained containedin=DMTTArrow conceal cchar==
 syn match DMTTArrowT   /</        contained containedin=DMTTArrow conceal cchar=
-syn match DMTTArrowTT  /<\@<=</   contained containedin=DMTTArrow conceal cchar=<
+syn match DMTTArrowTT  /<\@<=</   contained containedin=DMTTArrow conceal cchar=
 
 " -<
 syn match MTArrow   /-</       contains=MTArrowT,MTArrowM
