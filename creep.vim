@@ -1,5 +1,8 @@
 " ~/.vim/ftplugin/haskell/creep.vim
 
+" Check the file arrowtest.hs to see if
+" all the arrows work!
+
 " set correct conceal
 set conceallevel=1
 set concealcursor=nvi
@@ -16,14 +19,36 @@ syn match MHArrowM  /-/        contained containedin=MHArrow conceal cchar=-
 syn match MHArrowH  /-\@<=>/   contained containedin=MHArrow conceal cchar=→
 
 " <-
-syn match HMArrow   /<-/       contains=HMArrowM,HMArrowH
+syn match HMArrow   /<\ze-/    contains=HMArrowM,HMArrowH
 syn match HMArrowH  /</        contained containedin=HMArrow conceal cchar=←
-syn match HMArrowM  /<\@<=-/   contained containedin=HMArrow conceal cchar=-
 
 " =>
 syn match DMHArrow   /=>/       contains=DMHArrowM,DMHArrowH
 syn match DMHArrowM  /=/        contained containedin=DMHArrow conceal cchar==
 syn match DMHArrowH  /=\@<=>/   contained containedin=DMHArrow conceal cchar=⇒
+
+" >>=
+syn match DTTMArrow   />>\ze=/   contains=DTTMArrowT,DTTMArrowTT
+syn match DTTMArrowTT />/        contained containedin=DTTMArrow conceal cchar=
+syn match DTTMArrowT  />\@<=>/   contained containedin=DTTMArrow conceal cchar=
+
+" >=>
+syn match DTMHArrow   />=>/      contains=DTMHArrowT,DTMHArrowM,DTMHArrowH
+syn match DTMHArrowT  />/        contained containedin=DTMHArrow conceal cchar=
+syn match DTMHArrowM  /=/        contained containedin=DTMHArrow conceal cchar==
+syn match DTMHArrowH  /=\@<=>/   contained containedin=DTMHArrow conceal cchar=⇒
+
+" <=<
+syn match DHMTArrow   /<=</      contains=DHMTArrowM,DHMTArrowH,DHMTArrowT
+syn match DHMTArrowH  /</        contained containedin=DHMTArrow conceal cchar=⇐
+syn match DHMTArrowM  /=/        contained containedin=DHMTArrow conceal cchar==
+syn match DHMTArrowT  /=\@<=</   contained containedin=DHMTArrow conceal cchar=
+
+" =<<
+syn match DMTTArrow    /=<</      contains=DMTTArrowT,DMTTArrowTT,DMTTArrowM
+syn match DMTTArrowM   /=/        contained containedin=DMTTArrow conceal cchar==
+syn match DMTTArrowT   /</        contained containedin=DMTTArrow conceal cchar=
+syn match DMTTArrowTT  /<\@<=</   contained containedin=DMTTArrow conceal cchar=<
 
 " -<
 syn match MTArrow   /-</       contains=MTArrowT,MTArrowM
@@ -31,24 +56,22 @@ syn match MTArrowT  /-/        contained containedin=MTArrow conceal cchar=-
 syn match MTArrowM  /-\@<=</   contained containedin=MTArrow conceal cchar=⤙
 
 " -<<
-syn match MTTArrow   /-<</         contains=MTTArrowT,MTTArrowM
-syn match MTTArrowT  /-<</me=s+1   contained containedin=MTTArrow conceal cchar=-
-syn match MTTArrowM  /-\@<=</      contained containedin=MTTArrow conceal cchar=⤛
-syn match MTTArrowM  /\(-<\)\@<=</ contained containedin=MTTArrow conceal cchar=<
+syn match MTTArrow   /-<</          contains=MTTArrowT,MTTArrowM,HTTArrowTT
+syn match MTTArrowM  /-<</me=s+1    contained containedin=MTTArrow conceal cchar=-
+syn match MTTArrowT  /-\@<=</       contained containedin=MTTArrow conceal cchar=⤛
+syn match MTTArrowTT /\(-<\)\@<=</  contained containedin=MTTArrow conceal cchar=<
 
 " >-
-syn match TMArrow   />-/      contains=TMArrowT,TMArrowM
-syn match TMArrowT  />/       contained containedin=TMArrow conceal cchar=⤚
-syn match TMArrowM  />\@<=-/  contained containedin=TMArrow conceal cchar=-
+syn match TMArrow   />\ze-/    contains=TMArrowT,TMArrowM
+syn match TMArrowT  />/        contained containedin=TMArrow conceal cchar=⤚
 
- ">>-
-syn match TTMArrow   />>-/     contains=TTMArrowT,TTMArrowM
-syn match TTMArrowTT  />/      contained containedin=TTMArrow conceal cchar=
-syn match TTMArrowT  />\@<=>/  contained containedin=TTMArrow conceal cchar=⤜
-syn match TTMArrowM  />\@<=-/  contained containedin=TTMArrow conceal cchar=-
+">>-
+syn match TTMArrow    />>\ze-/  contains=TTMArrowT,TTMArrowTT
+syn match TTMArrowTT  />/       contained containedin=TTMArrow conceal cchar=
+syn match TTMArrowT   />\@<=>/  contained containedin=TTMArrow conceal cchar=⤜
 
-" These are by far not all arrow patterns one could come up with, so if you need
-" another one and can't think of how to implement it, please contact me to ask
+" These are probably not all arrow patterns one could come up with, so if you need
+" another one and you can't think of how to implement it, please contact me to ask
 " for it! I'll try to create the syntax rules.
 
 " Also if you have come up with some more patterns please contact me so I can
