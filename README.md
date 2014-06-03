@@ -67,7 +67,7 @@ file to a `dfont` file that can be used by Font Book.app to install the font.  T
 1. open the font in font forge:
 
    ```shell
-   $ fontforge creep.bsd
+   $ fontforge creep.bdf
    ```
 2. select `File > Generate Fonts`
 3. from the left dropdown select `No Outline Font`
