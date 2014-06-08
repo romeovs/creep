@@ -1,4 +1,3 @@
-This is:
 
 ![Creep](screens/logo.png "Creep logo")
 
