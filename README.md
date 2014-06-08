@@ -1,5 +1,8 @@
-creep
-=====
+This is:
+
+![Creep](screens/logo.png "Creep logo")
+
+<hr/>
 
 [Features](#features) · [Installation](#installation) · [Attribution](#attribution) ·
 [Licence](#license)
