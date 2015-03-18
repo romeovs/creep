@@ -1,0 +1,26 @@
+box: chase/fontforge
+build:
+    steps:
+        - script:
+            name: convert the font to .dfont and .fnt, gzip the bdf
+            code: |
+                fontforge -script convert.pe
+                mv creep-16.fnt creep.fnt
+                gzip -c creep.bdf > creep.bdf.gz
+deploy:
+    steps:
+        - script:
+            name: get version from the file comment
+            code: "export CREEP_VERSION=$(grep COMMENT creep.bdf | cut -d' ' -f 2)"
+        - github-create-release:
+            token: $GITHUB_TOKEN
+            tag: $CREEP_VERSION
+        - github-upload-asset:
+            token: $GITHUB_TOKEN
+            file: creep.dfont
+        - github-upload-asset:
+            token: $GITHUB_TOKEN
+            file: creep.bdf.gz
+        - github-upload-asset:
+            token: $GITHUB_TOKEN
+            file: creep.fnt
