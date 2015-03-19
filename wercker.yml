@@ -10,10 +10,7 @@ build:
                 gzip -c creep.bdf > creep.bdf.gz
 deploy:
     steps:
-        - script:
-            name: get version from the file comment
-            code: "export CREEP_VERSION=$(grep Version: creep.sfd | cut -d' ' -f 2)"
-        - github-create-release:
+        - motemen/github-create-release:
             token: $GITHUB_TOKEN
             tag: $CREEP_VERSION
         - github-upload-asset:
