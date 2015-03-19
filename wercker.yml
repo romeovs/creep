@@ -12,7 +12,6 @@ deploy:
     steps:
         - motemen/github-create-release:
             token: $GITHUB_TOKEN
-            tag: $CREEP_VERSION
         - github-upload-asset:
             token: $GITHUB_TOKEN
             file: creep.dfont
