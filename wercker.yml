@@ -6,12 +6,13 @@ build:
             code: |
                 fontforge -script convert.pe
                 mv creep-16.fnt creep.fnt
+                mv creep-16.bdf creep.bdf
                 gzip -c creep.bdf > creep.bdf.gz
 deploy:
     steps:
         - script:
             name: get version from the file comment
-            code: "export CREEP_VERSION=$(grep COMMENT creep.bdf | cut -d' ' -f 2)"
+            code: "export CREEP_VERSION=$(grep Version: creep.sfd | cut -d' ' -f 2)"
         - github-create-release:
             token: $GITHUB_TOKEN
             tag: $CREEP_VERSION
