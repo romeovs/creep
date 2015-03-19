@@ -100,7 +100,7 @@ Also if you have some ideas on what I should implement, please contact me.  I'd
 be happy to implement extra features.
 
 Thanks go out to [Chase Colman](https://github.com/chase) for fixing the
-metric issues creep had and being a helpful fellow.
+metric issues creep had, a wercker script and just for being a helpful fellow.
 
 [Creepin'](https://www.youtube.com/watch?v=i69wpDHOWKI)
 
