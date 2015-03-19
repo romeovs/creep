@@ -1,0 +1,8 @@
+#!/usr/bin/fontforge
+Open("creep.sfd")
+# Windows
+Generate("creep.","fnt")
+# Mac
+Generate("creep.dfont","sbit")
+# Linux
+Generate("creep.","bdf")
