@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1426781095
-ModificationTime: 1426781322
+ModificationTime: 1430401498
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -34,8 +34,6 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
-OS2CapHeight: 0
-OS2XHeight: 0
 OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
@@ -45,11 +43,11 @@ NameList: AGL For New Fonts
 DisplaySize: 16
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 28 28 9
+WinInfo: 0 43 15
 OnlyBitmaps: 1
 BeginPrivate: 0
 EndPrivate
-BeginChars: 65536 842
+BeginChars: 65536 844
 
 StartChar: char10254
 Encoding: 256 256 0
@@ -8470,8 +8468,28 @@ LayerCount: 2
 Back
 Fore
 EndChar
+
+StartChar: uni0219
+Encoding: 537 537 842
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: abreve
+Encoding: 259 259 843
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+Back
+Fore
+EndChar
 EndChars
-BitmapFont: 16 843 14 2 1 romeovs
+BitmapFont: 16 844 14 2 1 romeovs
 BDFStartProperties: 26
 COMMENT 1 "v1.0.1"
 FONT 1 "-romeovs-creep-Regular-R-Normal--16-160-75-75-M-4-ISO10646-1"
@@ -10179,5 +10197,9 @@ BDFChar: 840 61679 5 1 3 -1 5
 5Tg'B!$FN,
 BDFChar: 841 61680 5 0 2 -1 5
 5_&iB!.[<7
+BDFChar: 842 537 5 0 3 -2 4
+E.D=-i#k8b
+BDFChar: 843 259 5 0 3 0 7
+:`oaWOH>QC
 EndBitmapFont
 EndSplineFont
