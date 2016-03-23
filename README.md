@@ -102,7 +102,7 @@ be happy to implement extra features.
 Thanks go out to [Chase Colman](https://github.com/chase) for fixing the
 metric issues creep had, a wercker script and just for being a helpful fellow.
 
-[Creepin'](https://www.youtube.com/watch?v=i69wpDHOWKI)
+[Creepin'](https://soundcloud.com/youngmustard/creepin-no-sleep-remasterd)
 
 ## License
 I love you all, so please use this font as much as you like for free.  However, I would like to make sure
