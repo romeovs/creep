@@ -1,5 +1,6 @@
 #!/usr/bin/fontforge
-# This script exports the size 16 bitmap to /tmp so that it can be turned into a size 12 bitmap
+# This script should be executed from `convert-ttf.sh`
+# it exports the size 16 bitmap to /tmp so that it can be turned into a size 12 bitmap
 Open("creep.sfd")
 
 # this will result in a bitmap creep of size 16 in /tmp/creep-16.bdf
