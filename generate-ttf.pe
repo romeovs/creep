@@ -1,6 +1,6 @@
 #!/usr/bin/fontforge
 Open("creep.sfd")
 
-SelectWorthOutputting()
-SetWidth(80, 2) # 80% of 5 -> 4; setting it to 4 with the first arg didn't work
-Generate("creep.","ttf")
+Import("creep-12.bdf")
+BitmapsAvail([12])
+Generate("creep.", "ttf")
