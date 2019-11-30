@@ -1,5 +1,6 @@
 #!/bin/sh
-# This script hackily creates a .ttf file as `creep.ttf`
+# This script hackily creates a .ttf file as `creep.ttf` with nice default
+# widths and heights when used with fontsize 9pt
 
 # To begin, it's necessary to make a size 12 bitmap bdf so that the  .ttf has
 # the correct a size for the terminal (e.g. termite)
