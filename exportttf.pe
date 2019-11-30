@@ -1,6 +1,7 @@
 #!/usr/bin/fontforge
 Open("creep.sfd")
 
-Import("creep-12.bdf")
+# Assuming we made this in a script before
+Import("/tmp/creep-12.bdf")
 BitmapsAvail([12])
 Generate("creep.", "ttf")
