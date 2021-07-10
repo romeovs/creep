@@ -11,7 +11,7 @@ my own with creep.  It is a pretty compact (only 4px wide!) font that's great
 for smaller screens (like my 11" laptop).
 
 I'm constantly adding in new characters (diacritics, box-drawing characters, etc.),
-so I figured I'd put it up on github for poeple to reap benefits of this.
+so I figured I'd put it up on github for people to reap benefits of this.
 
 I also recently added some nice [Haskell features](https://github.com/romeovs/creep/wiki/Haskell-syntax-sugar) (that
 can be used in other languages too)!
