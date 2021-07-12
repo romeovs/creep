@@ -3,6 +3,13 @@
 
 <hr/>
 
+This repository is no longer being actively maintained (at least not
+extensively). Have a look at some more up to date alternatives:
+- [raymond-w-ko/creep2](https://github.com/raymond-w-ko/creep2)
+- [slavfox/Cozette](https://github.com/slavfox/Cozette)
+- [fcambus/spleen](https://github.com/fcambus/spleen)
+- [pico](https://www.lexaloffle.com/bbs/?tid=3760)
+
 [Features](#features) · [Installation](#installation) · [Attribution](#attribution) ·
 [Licence](#license)
 
