@@ -112,7 +112,10 @@ metric issues creep had, a wercker script and just for being a helpful fellow.
 [Creepin'](https://soundcloud.com/youngmustard/creepin-no-sleep-remasterd)
 
 ## License
-I love you all, so please use this font as much as you like for free.  However, I would like to make sure
-you provide others the same liberty in creep's new incarnations. Therefore creep
-is licensed under the [MIT License](https://github.com/romeovs/creep/blob/master/LICENSE).
+I love you all, so please use this font as much as you like for free and with as
+little restrictions as possible. Therefore creep is licensed under the [MIT
+License](https://github.com/romeovs/creep/blob/master/LICENSE).
+You don't have to, but it'd be nice if you license your code permissively too if
+at all possible
+
 
