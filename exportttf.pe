@@ -1,0 +1,7 @@
+#!/usr/bin/fontforge
+# This script should be executed from `convert-ttf.sh`
+Open("creep.sfd")
+
+Import("/tmp/creep-12.bdf")
+BitmapsAvail([12])
+Generate("creep.", "ttf")
